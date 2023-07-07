@@ -1,0 +1,26 @@
+{
+    "name": "liffe/roadmap",
+    "description": "Modulo Hojas de Ruta",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonzalo Sinka Fernandez",
+            "email": "gonzalo.sinka.8@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liffe\\RoadMap\\": "src"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "laravel": {
+            "providers": [
+              "UpKeepServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
